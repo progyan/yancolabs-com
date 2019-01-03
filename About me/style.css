@@ -1,0 +1,93 @@
+h1, h2, h3 {
+    font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+    color: #4285f5;
+    font-size: 3em;
+}
+
+h2 {
+    color: #fbbc06;
+    font-size: 2em;
+}
+
+h3 {
+    color: #ea4336;
+}
+
+
+p, ul, .skill, #projects {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+
+a {
+    text-decoration: none;
+    color: #34a852;
+    transition-property: color;
+    transition-duration: 0.2s;
+}
+
+a:hover {
+    color: #ea4336;
+}
+
+#js {
+    background-color: #f7df1d;
+    height: 16vw;
+}
+
+#java {
+    background-color: #ed8c00;
+    height: 14vw;
+}
+
+#python {
+    background-color: #4584b7;
+    height: 7vw;
+}
+
+#cpp {
+    background-color: #34a852;
+    height: 3vw;
+}
+
+
+.project {
+    width: 10vw;
+    height: 10vw;
+    text-align: center;
+    border-radius: 2.5vw;
+    display: inline-block; 
+}
+
+.project a {
+    color: black;
+}
+
+.java {
+    background-color: #ed8c00;
+}
+
+.js {
+    background-color: #f7df1d;
+}
+
+.python {
+    background-color: #4584b7;
+}
+
+.working {
+    background-color: #e4e2e2;
+}
+
+.cpp {
+    background-color: #34a853;
+}
+
+.js-google-play {
+    background-image: linear-gradient(to bottom right, #f7df1d, #ea4336);
+}

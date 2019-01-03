@@ -1,0 +1,40 @@
+h2 {
+    margin-top: -20px;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+body {
+    margin: 0;
+    overflow-y: hidden;
+    font-size: 1.31415em;
+    text-align: center;
+    color: white;
+}
+
+.a {
+    width: 100vw;
+    height: 66.66vw;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.active {
+    opacity: 1;
+}
+
+a {
+    color: white !important;
+    font-family: 'Charm', cursive;
+    font-size: 1.7em;
+    text-shadow: 0 0 10px white;
+    text-decoration: none;
+}
